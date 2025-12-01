@@ -1,4 +1,5 @@
-.env
+*.env
+.env.*
 /media/
 db.sqlite3
 debug.log

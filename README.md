@@ -26,7 +26,7 @@ A Django-based content moderation system with JWT authentication that checks upl
 
 ## Prerequisites
 
-- Python 3.8+
+- Python >=3.8 & <=3.12 
 - pip
 - Node.js & npm
 - Groq API Key
@@ -53,7 +53,10 @@ source venv/bin/activate
 ```
 
 #### 3. Install dependencies
+
 ```bash
+pip install torch==2.5.1
+#run this above command first to make sure their are no conflicts.
 pip install -r requirements.txt
 # Go grab a coffee, this might take a while
 ```

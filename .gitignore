@@ -1,0 +1,5 @@
+.env
+/media/
+db.sqlite3
+debug.log
+/policy_store/

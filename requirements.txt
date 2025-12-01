@@ -1,0 +1,41 @@
+Django==5.2.7
+djangorestframework==3.16.1
+djangorestframework-simplejwt==5.5.1
+django-cors-headers==4.9.0
+
+uvicorn==0.35.0
+python-multipart==0.0.20
+aiofiles==24.1.0
+whitenoise==6.11.0
+
+# LangChain Ecosystem (compatible with Python 3.10)
+langchain==0.3.27
+langchain-core==0.3.77
+langchain-community==0.3.30
+langchain-text-splitters==0.3.11
+langchain-google-genai==2.1.10
+langchain-groq==0.3.7
+langchain-openai==0.3.34
+langsmith==0.4.23
+
+# Vectorstore
+chromadb==1.0.20
+
+# Embeddings
+sentence-transformers==2.6.0
+
+# Utilities
+pydantic==2.11.7
+pypdf==6.4.0
+pypdf2==3.0.1
+pydantic-settings==2.10.1
+numpy==1.26.4
+scikit-learn==1.5.2
+scipy==1.13.1
+tqdm==4.67.1
+python-dotenv==1.0.1
+requests==2.32.5
+fastapi==0.115.0
+
+# Logging
+loguru==0.7.3
